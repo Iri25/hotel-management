@@ -21,7 +21,7 @@ Web application for hotel reservation management with the following specificatio
 - for a user to receive all the nearby hotels the following position calculation must be implemented:
 
 ### Position calculation:
-1. calculate the current user position (latitude , longitude) - here you can use any method like: APIs, libraries, etc
+1. calculate the current user position (latitude , longitude) 
 2. convert the user position (lat, long) in meters (https://en.wikipedia.org/wiki/Geographic_coordinate_system)
 3. convert all the hotels position (lat, long) that are stored in the application, in meters (https://en.wikipedia.org/wiki/Geographic_coordinate_system)
 4. calculate the distance between the user's position and every hotel's position (the distance between 2 points)

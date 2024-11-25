@@ -16,7 +16,7 @@ Web application for hotel reservation management with the following specificatio
 - user can leave a feedback (services, cleanliness, etc)
 
 ## Specifications:
-- the application has stored all hotels with their coordinates, rooms, and the price for each room in a database. The data is read from a given json file(see the json example below)
+- the application has stored all hotels with their coordinates, rooms, and the price for each room in a database
 - a hotel can have: single room , double room, suite room or matrimonial room which vary by price
 - for a user to receive all the nearby hotels the following position calculation must be implemented:
 

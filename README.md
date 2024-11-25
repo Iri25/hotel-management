@@ -1,17 +1,22 @@
 # hotel-management
 
+Web application for hotel reservation management from two components: frontend and backend.
+1. The frontend component is designed in the object-oriented programming language, JavaScript, using the React library.
+2. The backend component is developed in the object-oriented programming language, Java, using maven.
+
+## Requirements
 Web application for hotel reservation management with the following specifications:
-• the user specifies a radius in kilometers to find all the nearby hotels
-• the application lists and displays all hotels found
-• the user can select a specific hotel and see all available rooms alongside their prices
-• after this, the user can book one, or more of the available rooms
-• the application allows the user to cancel their reservation or change the booked room at least two hours before the check-in
-• user can leave a feedback (services, cleanliness, etc)
+- the user specifies a radius in kilometers to find all the nearby hotels
+- the application lists and displays all hotels found
+- the user can select a specific hotel and see all available rooms alongside their prices
+- after this, the user can book one, or more of the available rooms
+- the application allows the user to cancel their reservation or change the booked room at least two hours before the check-in
+- user can leave a feedback (services, cleanliness, etc)
 
 ## Specifications:
-• the application has stored all hotels with their coordinates, rooms, and the price for each room in a database. The data is read from a given json file(see the json example below)
-• a hotel can have: single room , double room, suite room or matrimonial room which vary by price
-• for a user to receive all the nearby hotels the following position calculation must be implemented:
+- the application has stored all hotels with their coordinates, rooms, and the price for each room in a database. The data is read from a given json file(see the json example below)
+- a hotel can have: single room , double room, suite room or matrimonial room which vary by price
+- for a user to receive all the nearby hotels the following position calculation must be implemented:
 
 ### Position calculation:
 1. calculate the current user position (latitude , longitude) - here you can use any method like: APIs, libraries, etc

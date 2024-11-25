@@ -1,7 +1,9 @@
 # hotel-management
 
 Web application for hotel reservation management from two components: frontend and backend.
+
 `Frontend` is designed in the object-oriented programming language, JavaScript, using the React library.
+
 `Backend` is developed in the object-oriented programming language, Java, using maven.
 
 ## Requirements
